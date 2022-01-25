@@ -69,3 +69,17 @@ img {
 margin-bottom: 42px;
 box-shadow: 8px 10px 8 px #888;
 }
+
+/* Passive link styles */
+            
+a:link, a:visited {
+    color: #000;
+    border-bottom: solid 2px #000;
+} 
+            
+/* Interactive link styles */
+            
+a:hover, a:focus, a:active {
+    color: #f26f21;
+    border-bottom: solid 2px blue;
+}
