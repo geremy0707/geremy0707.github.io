@@ -4,39 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web site</title>
-    <title>Geremy Darbas | Home Page</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital creations.">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">    
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
-    <link rel="manifest" href="assets/img/site.webmanifest">
-    <link rel="stylesheet" href="assets/css/global.css">
-</head>
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
 
+	<!-- Preload hero image -->
+
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+
+    
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
+</head>
 
 
 <body>
 
-    <h1>Welcome</h1>
-    <h2>Geremy Darbas</h2>
-    
-    <h3>Sample Web Pages</h3>
-    <h3>there is my first experience with coding and designing a web page</h3>
-    <img src="assets/img/pexels-luis-gomes-546819.jpg" alt="Home page image">
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-    <p><a href="exercises/page-7.html">Smoothies</a></p> 
-    <p><a href="exercises/page-8.html">Software Analytics</a></p>
-    <p><a href="exercises/page-9.html">The Box Model</a></p>
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p>
-    <p><a href="exercises/hero-text.html">Hero block with animated text</a></p> 
- 
+    <!-- navigation menu -->
+    <nav></nav>
 
- 
+    <!-- header hero block -->
+    <header class="hero-block text-center-desktop text-center-mobile">
+
+        <div class="hero-text-container">
+            <h1 class="text-shadow">IRISH EXPERIENCE</h1>
+            <h2 class="text-shadow">that time i were in irlande</h2>
+        </div>
+    
+    
+            <div class="container-btn">
+                <a href="#" class="btn btn-secondary btn-soft"><i class="fas fa-envelope"></i><span>Contacte me</span></a>
+                <a href="#" class="btn btn-secondary btn-soft"><i class="fas fa-camera"></i><span>Gallery</span></a>
+            </div>
+        
+        <div class="hero-bg-media">
+            <img src="assets/img/panorama.jpg" alt="Placeholder image">
+        </div>
+    
+        <div class="bg-overlay"></div>
+    
+    </header>
+
+
+    <!-- main content with sections -->
+    <main>
+        
+	<section class="container-flex theme-one img-corners-soft text-center">
+		<div class="col-1 text-center">
+			<h2>Lorem Malesuada Dolor</h2>
+			<h3>Etiam tincidunt risus nec odio sollicitudin, non blandit ipsum facilisis class aptent.</h3>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/manoire.jpg" alt="Food"></figure>
+
+			<h3>Lorem ipsum dolo</h3>
+			<p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Velsit perferendis officia.</p>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/stonecastel.jpg" alt="Gap of Dunloe"></figure>
+
+			<h3>Lorem ipsum dolo</h3>
+			<p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Velsit perferendis officia.</p>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/churche.jpg" alt="Design"></figure>
+
+			<h3>Lorem ipsum dolo</h3><p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Velsit perferendis officia.</p>
+		</div>
+	</section>
+
+    </main>
+    
+    
+    <!-- footer -->
+    <footer></footer>
+       
+    <script src="assets/js/menu.js"></script>
+
 </body>
 </html>
